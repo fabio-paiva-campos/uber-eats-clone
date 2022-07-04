@@ -1,0 +1,490 @@
+body {
+	font-family: 'League Spartan', sans-serif;
+	margin:0;
+	padding:0;
+}
+#header {
+	width: 100%;
+    height: 64px;
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: #010101;
+}
+.logo {
+	float: left;
+	margin-top: 12px;
+	margin-left: 25px;
+	display: inline-block;
+}
+.logo:hover {
+	cursor: pointer;
+}
+.buttons {
+	float: left;
+	margin: 100px;
+	display: inline-block;
+}
+.right {
+	float: right;
+	margin: 0;
+	display: inline-block;
+}
+#service {
+	margin-top: 12px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 30px;
+	font-size: small;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	display: flex;
+	align-items:center;
+	transition: all 0.3s ease 0s;
+	border: none;
+	border-radius: 18px;
+	padding: 10px 10px;
+	display: none;
+}
+#service:hover {
+	background-color: #343434;
+	cursor: pointer;
+}
+#button {
+	margin-top: 12px;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 10px;
+	font-size: small;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	display: flex;
+	align-items:center;
+	transition: all 0.3s ease 0s;
+	border: none;
+	border-radius: 18px;
+	padding: 10px 10px;
+	display: none;
+}
+#button:hover {
+	background-color: #343434;
+	cursor: pointer;
+}
+#login {
+	margin-top: 15px;
+	margin-right: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 10px;
+	color: #ffffff;
+	background-color: #010101;
+	border: none;
+	border-radius: 18px;
+	font-family: 'League Spartan', sans-serif;
+	display: flex;
+	align-items:center;
+	transition: all 0.3s ease 0s;
+}
+#help {
+	margin-top: 16px;
+	margin-right: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 15px;
+	color: #ffffff;
+	background-color: #010101;
+	border: none;
+	border-radius: 18px;
+	font-family: 'League Spartan', sans-serif;
+	transition: all 0.3s ease 0s;
+	display: none;
+}
+#lang {
+	margin-top: 15px;
+	margin-right: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 10px;
+	color: #ffffff;
+	background-color: #010101;
+	border: none;
+	border-radius: 18px;
+	font-family: 'League Spartan', sans-serif;
+	display: none;
+	align-items:center;
+	transition: all 0.3s ease 0s;
+}
+#lang:hover {
+	background-color: #343434;
+	cursor: pointer;
+}
+#login:hover {
+	background-color: #343434;
+	cursor: pointer;
+}
+#help:hover {
+	background-color: #343434;
+	cursor: pointer;
+}
+#burger {
+	margin-top: 15px;
+	margin-right: 10px;
+	padding: 10px 10px;
+	color: #ffffff;
+	background-color: #010101;
+	border: none;
+	border-radius: 100%;
+	align-items:center;
+	transition: all 0.3s ease 0s;
+}
+#burger:hover {
+	background-color: #343434;
+	cursor: pointer;
+}
+.welcome {
+	float: left;
+	margin-top: 5px;
+	background-image: url("../assets/bgmobile.png");
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+}
+#expand {
+	margin-left: 20px;
+	margin-top: 375px;
+	margin-bottom: 30px;
+	width: 100%;
+	color: #343434;
+	font-size: 40px;
+	font-weight: bolder;
+	line-height: 45px;
+}
+#signup {
+	margin-left: 20px;
+	margin-top: 0px;
+	color: #ffffff;
+	background-color: #010101;
+	border: none;
+	height: 50px;
+	width: 140px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	transition: all 0.3s ease 0s;
+}
+#signup:hover {
+	background-color: #343434;
+	cursor: pointer;
+}
+.loyal {
+	line-height: 35px;
+	display: table;
+	width: 90%;
+}
+#newuser {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 0;
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+}
+.desc1 {
+	float: left;
+	margin-left: 20px;
+	width: 100%;
+	font-size: 20px;
+	line-height: 20px;
+}
+.desc2 {
+	float: left;
+	margin-left: 20px;
+	width: 100%;
+	font-size: 20px;
+	line-height: 25px;
+}
+.desc3 {
+	float: left;
+	margin-left: 20px;
+	width: 100%;
+	font-size: 20px;
+	line-height: 25px;
+}
+.case1 {
+	margin-top: 0;
+	display: table;
+}
+.ramsey {
+	float: left;
+	margin-left: 20px;
+	width: 80%;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 35px;
+	margin-right: 0;
+}
+#ramseyimg {
+	float: left;
+	margin-left: 20px;
+	max-width: 440px;
+	margin-right: 0;
+}
+.tohelp {
+	margin-left: 20px;
+	width: 90%;
+	font-size: 17px;
+	line-height: 20px;
+}
+.tohelp2 {
+	width: 100%;
+}
+.retail {
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 90%;
+	line-height: 20px;
+	font-size: 20px;
+}
+.petshop {
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 90%;
+	line-height: 20px;
+	font-size: 20px;
+}
+.flower {
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 90%;
+	line-height: 20px;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.nav {
+	float: left;
+	margin-left: 310px;
+	display: inline-flex;
+	align-items: center;
+	column-gap: 10px;
+}
+#back {
+	margin: 0;
+	float: left;
+	transform: scaleX(-1);
+	padding: 15px 15px;
+	background-color: #f6f6f6;
+	border-radius: 100%;
+}
+#front {
+	margin: 0;
+	float: left;
+	padding: 15px 15px;
+	transition: all 0.3s ease 0s;
+	background-color: #eeeeee;
+	border-radius: 100%;
+}
+#front:hover {
+	background-color: #e2e2e2;
+	cursor: pointer;
+}
+.case2 {
+	width: 100%;
+}
+.impact {
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 0;
+	width: 90%;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #343434;
+}
+#impactimg {
+	float: left;
+	margin-left: 20px;
+	margin-top: 80px;
+	max-width: 440px;
+	margin-right: 0;
+}
+.smallbiz {
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	width: 90%;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #343434;
+}
+#smallbizimg {
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0;
+	max-width: 440px;
+}
+#casetitle {
+	line-height: 45px;
+}
+.grow {
+	float: left;
+	padding-bottom: 40px;
+	width: 100%;
+	background-color: #58bd71;
+}
+#grow {
+	margin-top: 40px;
+	color: #343434;
+	font-weight: bolder;
+	font-size: 35px;
+	text-align: center;
+}
+#signup2 {
+	margin-left: 168px;
+	margin-top: 10px;
+	color: #ffffff;
+	background-color: #010101;
+	border: none;
+	height: 50px;
+	width: 145px;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	transition: all 0.3s ease 0s;
+}
+#signup2:hover {
+	background-color: #343434;
+	cursor: pointer;
+}
+.ending {
+	width: 100%;
+	float: left;
+	background-color: #010101;
+}
+#disc {
+	margin-top: 45px;
+	margin-left: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	width: 90%;
+}
+#address {
+	float: left;
+	margin-left: 30px;
+	margin-top: 130px;
+	width: 90%;
+	color: #ffffff;
+	text-align: left;
+	line-height: 20px;
+}
+#address:hover {
+	cursor: pointer;
+	color: #afafaf;
+}
+.links {
+	display: inline-block;
+}
+#link:hover {
+	cursor: pointer;
+	color: #afafaf;
+}
+.who {
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+	color: #ffffff;
+	line-height: 20px;
+	width: 90%;
+}
+.options {
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+	color: #ffffff;
+	line-height: 20px;
+	width: 90%;
+}
+.products {
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+	color: #ffffff;
+	line-height: 20px;
+}
+.socials {
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	height: 52px;
+	display: inline-block;
+}
+.appstores {
+	float: right;
+	margin-right: 60px;
+}
+#socialtxt {
+	color: #ffffff;
+	display: flex;
+	align-items:center;
+}
+#socialbtn {
+	padding: 15px 15px;
+	margin: 3px;
+	transition: all 0.3s ease 0s;
+}
+#socialbtn:hover {
+	cursor: pointer;
+	background-color: #343434;
+}
+#socialtxt {
+	margin-top: 80px;
+	column-gap: 10px;
+	align-items: center;
+	padding: 5px 5px;
+	margin: 5px;
+	transition: all 0.3s ease 0s;
+	width: 50%;
+}
+#socialtxt:hover {
+	cursor: pointer;
+	background-color: #343434;
+}
+.appstores {
+	margin-top: 80px;
+	margin-left: 30px;
+	float: left;
+	align-items: center;
+}
+#appstore {
+	margin: 5px;
+}
+#appstore:hover {
+	cursor: pointer;
+}
+.bottom {
+	margin-top: 5px;
+	width: 100%;
+	color: #afafaf;
+}
+.bottomleft {
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 14px;
+	height: 120px;
+	width: 90%;
+}
+.bottomright {
+	display: inline-flex;
+	float: left;
+	column-gap: 25px;
+	margin-left: 30px;
+	font-size: 14px;
+}
+#finalink:hover {
+	cursor: pointer;
+	color: #504d50;
+}
